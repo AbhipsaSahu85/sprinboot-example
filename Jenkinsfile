@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Complie') {
             steps {
-                echo 'compliling application'
+                echo 'compliling applications'
                 bat 'mvn compile'
             }
         }
