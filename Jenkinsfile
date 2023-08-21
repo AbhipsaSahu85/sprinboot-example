@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Complie') {
             steps {
-                echo 'compliling applications-sample branch'
+                echo 'compliling applications-samplebranch'
                 bat 'mvn compile'
             }
         }
